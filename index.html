@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-continer {
+    background-color: #1b1b1b;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.heading-1 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Bree Serif;
+    padding: 15px;
+}
+
+.page1-card1 {
+    background-color: #e6f6ff;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.card1-img1 {
+    height: 40vh;
+}
+
+.card1-heading {
+    color: blue;
+    font-size: 18px;
+    font-family: Bree Serif;
+    font-weight: 500;
+}
+
+.card1-par1 {
+    font-size: 15px;
+    font-family: Bree serif;
+    color: #06070d;
+    font-weight: 400;
+}
+
+.card1-par2 {
+    color: blue;
+    font-size: 12px;
+    font-family: Bree Serif;
+    font-weight: 500;
+}
+
+.card1-detalis {
+    padding: 15px;
+}
+
+.page1-card2 {
+    background-color: #1b1b1b;
+    border-radius: 8px;
+    margin: 15px;
+}
+
+.card2-heading {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Bree Serif;
+    font-weight: 500;
+}
+
+.card2-par1 {
+    font-size: 15px;
+    font-family: Bree serif;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.card2-par2 {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: Bree Serif;
+    font-weight: 500;
+}
+
+.card2-detalis {
+    padding: 10px;
+}
+
+.page2-img1 {
+    height: 50vh;
+}
+
+.page2-h1 {
+    color: #ffffff;
+    font-size: 23px;
+    font-family: Bree Serif;
+
+}
+
+.page2-par1 {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: Bree Serif;
+}
+
+.page2-par2 {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Bree Serif;
+    text-align: left;
+}
+
+.bg-continer-page2 {
+    background-color: #1b1b1b;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+</head>
+
+<body>
+    <div id="sectionbookstorehomepage">
+        <div class="bg-continer">
+            <h1 class="heading-1">Popular Book</h1>
+            <div class="page1-card1 d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="card1-img1">
+                <div class="card1-detalis">
+                    <h1 class="card1-heading">Wings of Fire</h1>
+                    <p class="card1-par1">An Autobiography of Abdul Kalam</p>
+                    <p class="card1-par2">by Arun Tiwari</p>
+                    <button class="btn btn-primary" onclick="display('sectionwingsofthefirebook')">Read Now</button>
+                </div>
+            </div>
+            <div>
+                <h1 class="heading-1"> Recommended Books</h1>
+                <div class="page1-card2 d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="card1-img1">
+                    <div class="card2-detalis">
+                        <h1 class="card2-heading">THe 3 mistakes of my life</h1>
+                        <p class="card2-par1">Indian Author <br /></p>
+                        <p class="card2-par2">by chethan bhagat</p>
+                        <button class="btn btn-primary" onclick="display('section3mistakesoflife')">Read Now</button>
+                    </div>
+                </div>
+                <div class="page1-card2 d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="card1-img1">
+                    <div class="card2-detalis">
+                        <h1 class="card2-heading">Harry Porter</h1>
+                        <p class="card2-par1">and the sorcerer's Stone </p>
+                        <p class="card2-par2">by J.K.Rowling</p>
+                        <button class="btn btn-primary" onclick="display('sectionharrypotter')">Read Now</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <div id="sectionwingsofthefirebook">
+        <div class="bg-continer-page2">
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="page2-img1">
+            </div>
+            <div>
+                <h1 class="page2-h1"> Wings of Fire</h1>
+                <p class="page2-par1">by Arun Tiwarl</p>
+            </div>
+            <div>
+                <p class="page2-par2 ">Every common man who by his sheer grit and hardwork
+                    achieve sucess should share his story with the rest for they may find
+                    inspiration and strength to go on, in his story. The 'WINGS OF FIRE'
+                    is one of such autography by visinary scientists DR.Kalam</p>
+                <button class="btn btn-warning" onclick="display('sectionbookstorehomepage')"> Back</button>
+                <button class="btn btn-primary">Buy Now</button>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="section3mistakesoflife">
+        <div class="bg-continer-page2">
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="page2-img1">
+            </div>
+            <div>
+                <h1 class="page2-h1"> The 3 mistakes of my life</h1>
+                <p class="page2-par1">by chetan Bhagat</p>
+            </div>
+            <div>
+                <p class="page2-par2 ">the 3 Mistakes of my life is the third novel written
+                    by eminent indian author chetam bhagat,based on cricket,
+                    bussiness and religion,the novel is set against the backdrop ofbeautiful city Ahmedabad.Revoiving around three
+                    young indian boys oml,islam and govind ,the book goes on to narrate how the three are trying their best to make ends</p>
+                <button class="btn btn-warning" onclick="display('sectionbookstorehomepage')"> Back</button>
+                <button class="btn btn-primary">Buy Now</button>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="sectionharrypotter">
+        <div class="bg-continer-page2">
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="page2-img1">
+            </div>
+            <div>
+                <h1 class="page2-h1"> Harry POtter</h1>
+                <p class="page2-par1">by J.K. Rowling</p>
+            </div>
+            <div>
+                <p class="page2-par2 ">Harry potter's life is miserable.His parents
+                    are dead and he's stuck with his heartless relatives,who force him to live in a
+                    tiny closet under the stairs.But his fortune changes when he recievices a letter that tella him the truth about himself:
+                    he's a wizard</p>
+                <button class="btn btn-warning" onclick="display('sectionbookstorehomepage')"> Back</button>
+                <button class="btn btn-primary">Buy Now</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
